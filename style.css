@@ -1,0 +1,52 @@
+body {
+  position: relative;
+  top: 120px;
+  text-align: center;
+  background-color: rgb(226, 212, 212);
+}
+
+nav {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  background-color: rgb(127, 233, 41);
+  opacity: 0.5;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  border-radius: 10%;
+  border: 3px solid grey;
+  animation: rainbow 5s infinite;
+}
+
+.skills {
+  background-color: #00c3ffc2;
+  font-size: larger;
+  border-radius: 5%;
+}
+
+.education {
+  background-color: orange;
+  font-size: 150%;
+  border-radius: 5%;
+}
+
+.courses {
+  background-color: yellow;
+  font-size: 18px;
+  border-radius: 5%;
+}
+
+.english {
+  background-color: gray;
+  font-size: 150%;
+  border-radius: 5%;
+}
+
+.me {
+  background-color: #00ff8036;
+  font-size: larger;
+  border-radius: 5%;
+}
