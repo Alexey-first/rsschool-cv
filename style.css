@@ -1,6 +1,5 @@
 body {
   position: relative;
-  top: 120px;
   text-align: center;
   background-color: rgb(226, 212, 212);
 }
@@ -20,7 +19,10 @@ nav {
   border: 3px solid grey;
   animation: rainbow 5s infinite;
 }
-
+img {
+  height: 200px;
+  padding-top: 210px;
+}
 .skills {
   background-color: #00c3ffc2;
   font-size: larger;
