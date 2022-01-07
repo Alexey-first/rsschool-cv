@@ -3,6 +3,8 @@ body {
   padding: 0 50px;
   text-align: center;
   background-color: rgb(226, 212, 212);
+  width: 1440px;
+  max-width: 100%;
 }
 
 nav {
@@ -17,6 +19,7 @@ nav {
   right: 10px;
   border-radius: 10%;
   border: 3px solid grey; 
+  max-width: 100%;
 }
 
 nav ul {
@@ -69,4 +72,8 @@ pre {
 footer img {
   padding: 20px 0;
   width: 50%;
+}
+.mygithub {
+  width: 100px;
+  height: 100px;
 }
