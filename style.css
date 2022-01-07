@@ -8,8 +8,7 @@ body {
 nav {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 18px;
-  text-align: left;
+  font-size: 18px; 
   background-color: rgb(127, 233, 41);
   opacity: 0.5;
   position: fixed;
@@ -17,13 +16,26 @@ nav {
   left: 10px;
   right: 10px;
   border-radius: 10%;
-  border: 3px solid grey;
-  animation: rainbow 5s infinite;
+  border: 3px solid grey; 
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+nav li {
+  margin-right: 20px;
 }
 img {
   height: 200px;
   padding-top: 210px;
 }
+pre {
+  /* text-align: center;   */
+  width: 20%;  
+}
+
 .skills {
   background-color: #00c3ffc2;
   font-size: larger;
@@ -55,5 +67,6 @@ img {
   padding: 0 20px;
 }
 footer img {
-  padding: 50px 0;
+  padding: 20px 0;
+  width: 50%;
 }
