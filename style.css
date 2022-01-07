@@ -1,5 +1,6 @@
 body {
-  position: relative;
+  margin: 0 auto;
+  padding: 0 50px;
   text-align: center;
   background-color: rgb(226, 212, 212);
 }
@@ -51,4 +52,8 @@ img {
   background-color: #00ff8036;
   font-size: larger;
   border-radius: 5%;
+  padding: 0 20px;
+}
+footer img {
+  padding: 50px 0;
 }
